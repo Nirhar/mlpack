@@ -12,6 +12,11 @@
   * Add Triplet Margin Loss function (#2762).
 
   * Add finalizers to Julia binding model types to fix memory handling (#2756).
+  
+  * HMM: add functions to calculate likelihood for data stream with/without
+    pre-calculated emission probability (#2142).
+
+  * Replace Boost serialization library by Cereal (#2458).
 
 ### mlpack 3.4.2
 ###### 2020-10-26
